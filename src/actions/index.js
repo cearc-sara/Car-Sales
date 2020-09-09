@@ -1,5 +1,6 @@
 export const ADD_FEATURE = "ADD_FEATURE"; //action type
 export const REMOVE_FEATURE = "REMOVE_FEATURE";
+
 // action suite
 export const addFeature = (feature) => {
   //action creator
@@ -16,3 +17,4 @@ export const removeFeature = (feature) => {
         payload: feature
     }
 }
+
